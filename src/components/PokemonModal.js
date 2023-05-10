@@ -3,12 +3,11 @@ import { FormProvider, FTextField } from "./form"
 import Modal from "@mui/material/Modal"
 
 import { useForm } from "react-hook-form"
-import { useDispatch, useSelector } from "react-redux"
+import { useDispatch } from "react-redux"
 import { alpha, Stack } from "@mui/material"
 import { LoadingButton } from "@mui/lab"
 
 import { addPokemon } from "../features/pokemons/pokemonSlice"
-import { useNavigate } from "react-router-dom"
 
 const style = {
 	position: "absolute",
